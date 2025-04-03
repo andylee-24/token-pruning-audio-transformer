@@ -3,7 +3,7 @@
 by TaeHan Lee and Hyukjun Lee
 
 ### News
-* [02 April 2025] We have released the [preprint]() on arXiv.
+* [02 April 2025] We have released the [preprint](https://arxiv.org/abs/2504.01690) on arXiv.
 
 ### Prepare data and pretrained model
 * Download pretrained models (ViT-B) from [AudioMAE](https://github.com/facebookresearch/AudioMAE) and [ast](https://github.com/YuanGongND/ast) with stride=16.
