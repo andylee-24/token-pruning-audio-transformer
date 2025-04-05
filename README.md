@@ -2,6 +2,14 @@
 
 by TaeHan Lee and Hyukjun Lee
 
+### Abstract
+Vision Transformers (ViTs) have achieved state-of-the-art performance across various computer vision tasks, but their high computational cost remains a challenge. Token
+pruning has been proposed to reduce this cost by selectively removing less important tokens. While effective in vision tasks by discarding non-object regions, applying this technique to audio tasks presents unique challenges, as distinguishing relevant from irrelevant regions in time-frequency representations is less
+straightforward. In this study, for the first time, we applied token pruning to ViT-based audio classification models using
+Mel-spectrograms and analyzed the trade-offs between model performance and computational cost: TopK token pruning can
+reduce MAC operations of AudioMAE and AST by 30-40%, with less than a 1% drop in classification accuracy. Our analysis reveals that while high-intensity tokens contribute significantly to model accuracy, low-intensity tokens remain important. In particular, they play a more critical role in general audio
+classification tasks than in speech-specific tasks.
+
 ### News
 * [02 April 2025] We have released the [preprint](https://arxiv.org/abs/2504.01690) on arXiv.
 
