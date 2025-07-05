@@ -137,7 +137,7 @@ class Attention(nn.Module):
             #                      f'block-{self.block_id}.V': v.cpu(),
             #                      f'block-{self.block_id}.attn_score': attn[:, :, self.num_extra_tokens:, self.num_extra_tokens:].mean(dim=(1, 2))}
             
-            attn_feature_dict = {f'block-{self.block_id}.attn_score': attn[:, :, self.num_extra_tokens:, self.num_extra_tokens:].mean(dim=(1, 2)).cpu()}
+            attn_feature_dict = {f'block-{self.block_id}.attn_score': attn_score = attn[:, :, 0, self.num_extra_tokens:].mean(dim=(1)).cpu()}
             
             if topk_idx is not None:
                 attn_feature_dict[f'block-{self.block_id}.topk_idx'] = topk_idx.cpu()
