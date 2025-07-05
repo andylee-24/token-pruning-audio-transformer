@@ -29,4 +29,4 @@ classification tasks than in speech-specific tasks.
 * Use ``./run_extract_stats.sh`` under audiomae/ to extract visualizations of token prunings, Mel-spectrogram statistics & kendall correlations. Please refer to ``extract_stats.py`` for details
 
 ### Acknowledgement
-* Our implementation is based on [AudioMAE](https://github.com/facebookresearch/AudioMAE), [AST](https://github.com/YuanGongND/ast) and [EViT](https://github.com/youweiliang/evit).
+* Our implementation is based on [AudioMAE](https://github.com/facebookresearch/AudioMAE), [AST](https://github.com/YuanGongND/ast), [EViT](https://github.com/youweiliang/evit) and [DynamicViT](https://github.com/raoyongming/DynamicViT).
