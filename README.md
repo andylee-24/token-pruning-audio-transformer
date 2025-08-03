@@ -11,7 +11,8 @@ reduce MAC operations of AudioMAE and AST by 30-40%, with less than a 1% drop in
 classification tasks than in speech-specific tasks.
 
 ### News
-* [02 April 2025] We have released the [preprint](https://arxiv.org/abs/2504.01690) on arXiv.
+* [03 August 2025] Our paper got accepted for [ECAI-2025](https://ecai2025.org/)! We also uploaded our [checkpoints](https://drive.google.com/drive/folders/1cBDXh98m2qDlYLLX3q6xB-gtU1uUtxhK).
+* [02 April  2025] We have released the [preprint](https://arxiv.org/abs/2504.01690) on arXiv.
 
 ### Prepare data and pretrained model
 * Download pretrained models (ViT-B) from [AudioMAE](https://github.com/facebookresearch/AudioMAE) and [ast](https://github.com/YuanGongND/ast) with stride=16.
