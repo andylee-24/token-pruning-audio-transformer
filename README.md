@@ -26,15 +26,18 @@ Vision Transformers (ViTs) have achieved state-of-the-art performance across var
 
 ### Citation
 ```
-@article{lee2025tokenpruningaudiotransformers,
-      title={Token Pruning in Audio Transformers: Optimizing Performance and Decoding Patch Importance}, 
-      author={Taehan Lee and Hyukjun Lee},
-      year={2025},
-      eprint={2504.01690},
-      archivePrefix={arXiv},
-      primaryClass={cs.SD},
-      url={https://arxiv.org/abs/2504.01690}, 
-}
+@inbook{Lee_2025,
+   title={Token Pruning in Audio Transformers: Optimizing Performance and Decoding Patch Importance},
+   ISBN={9781643686318},
+   ISSN={1879-8314},
+   url={http://dx.doi.org/10.3233/FAIA251136},
+   DOI={10.3233/faia251136},
+   booktitle={ECAI 2025},
+   publisher={IOS Press},
+   author={Lee, Taehan and Lee, Hyukjun},
+   year={2025},
+   month=oct }
 ```
+
 ### Acknowledgement
 * Our implementation is based on [AudioMAE](https://github.com/facebookresearch/AudioMAE), [AST](https://github.com/YuanGongND/ast), [EViT](https://github.com/youweiliang/evit) and [DynamicViT](https://github.com/raoyongming/DynamicViT).
